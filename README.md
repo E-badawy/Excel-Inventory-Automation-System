@@ -94,7 +94,7 @@ Here’s a quick look at the Excel Inventory Automation System in action:
 
 Experience the project workflow in action:
 
-[![Watch the demo](docs/screenshots/demo_thumbnail.png)](https://youtu.be/your-demo-link-here)
+[![Watch the demo](Inventory_clip.mp4)]
 
 ---
 
