@@ -77,6 +77,27 @@ Columns:
 #### 📥 Add / Update Item
 Automatically adds or updates an existing product’s quantity.
 
+---
+
+## 📸 Screenshots
+
+Here’s a quick look at the Excel Inventory Automation System in action:
+
+| Feature | Preview |
+|----------|----------|
+| 🪟 UserForm Popup | ![UserForm Popup](screenshot2.png) |
+| ⚠️ Stock Full Alert | ![Low Stock Alert](screenshot1.png) |
+
+---
+
+## 🎥 Video Demo
+
+Experience the project workflow in action:
+
+[![Watch the demo](docs/screenshots/demo_thumbnail.png)](https://youtu.be/your-demo-link-here)
+
+---
+
 ```vba
 ' Core logic for adding or updating inventory
 Option Explicit
