@@ -168,7 +168,43 @@ Private Sub btnUndo_Click()
     MsgBox "? Last entry undone successfully.", vbInformation
     lastActionRow = 0
 End Sub
+```
+🧾 Export to PDF
 
+```vba
+Sub ExportInventoryToPDF()
+    Dim ws As Worksheet
+    Dim filePath As String
+    Dim fileName As String
+    Set ws = ThisWorkbook.Sheets("Inventory")
+    fileName = "Inventory_Report_" & Format(Date, "yyyy-mm-dd") & ".pdf"
+    filePath = ThisWorkbook.Path & "\" & fileName
+    ws.ExportAsFixedFormat Type:=xlTypePDF, Filename:=filePath, OpenAfterPublish:=True
+    MsgBox "✅ PDF Exported: " & filePath, vbInformation
+End Sub
+```
+
+🧠 Logic Workflow
+
+User opens the form → enters details.
+
+VBA checks if the product already exists.
+
+If found → adds to quantity and updates timestamp.
+
+If not → inserts a new row with all details.
+
+VBA checks for stock threshold (≤ 5).
+
+Adds “Reorder” flag + color highlight.
+
+Resort table alphabetically.
+
+Confirm success via message box.
+
+```css
+[ UserForm ] → [ Validation ] → [ Update/Add Row ] → [ Highlight ] → [ Alert ] → [ Export ]
+```
 
 
 
