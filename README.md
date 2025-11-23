@@ -90,11 +90,8 @@ Here’s a quick look at the Excel Inventory Automation System in action:
 
 ---
 
-## 🎥 Video Demo
-
-Experience the project workflow in action:
-
-[![Watch the demo](Inventory_clip.mp4)]
+## VBA excel worksheet code
+paste in current worksheet and save as macro enabled worksheet
 
 ---
 
@@ -226,7 +223,10 @@ Confirm success via message box.
 ```css
 [ UserForm ] → [ Validation ] → [ Update/Add Row ] → [ Highlight ] → [ Alert ] → [ Export ]
 ```
-
+### contact me for more info @
+email: officialbadawy@gmail.com
+call/whatsapp: 08065440075
+Badawi Aminu Muhammed
 
 
 
